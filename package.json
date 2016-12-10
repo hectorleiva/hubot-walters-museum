@@ -13,10 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-walters-museum-api.git"
+    "url": "git@github.com:hectorleiva/hubot-walters-museum.git"
   },
   "bugs": {
-    "url": ""
+    "url": "git@github.com:hectorleiva/hubot-walters-museum.git/issues"
   },
   "dependencies": {
     "coffee-script": "~1.6",
