@@ -1,0 +1,42 @@
+{
+  "name": "hubot-walters-museum",
+  "description": "Interface for the Walters Museum API via Hubot",
+  "version": "0.1.0",
+  "author": "Hector Leiva <hector@hectorleiva.com>",
+  "license": "MIT",
+  "keywords": [
+    "walters museum",
+    "baltimore",
+    "maryland",
+    "hubot",
+    "hubot-scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-walters-museum-api.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "moment": "^2.17.1"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "mocha": "*",
+    "mockery": "^2.0.0",
+    "sinon": "*",
+    "sinon-chai": "*"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "./node_modules/.bin/grunt test"
+  }
+}
